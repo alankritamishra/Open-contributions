@@ -28,7 +28,7 @@ This process continues until the model is programmed to finish or the input sequ
 As we can see, the calculations at each time step consider the context of the previous time steps in the form of the hidden state. Being able to use this contextual information from previous inputs is the key essence to RNNs’ success in sequential problems.
 
 While it may seem that a different RNN cell is being used at each time step in the graphics, the underlying principle of **Recurrent Neural Networks is that the RNN cell is actually the exact same one and reused throughout.**
-## Working of RNN
+## Working of RNN  
 ![RNN-unrolled 1](https://user-images.githubusercontent.com/66169287/93785682-ff0cd800-fc4b-11ea-9165-7b278e753908.png)
 This is an unrolled version of RNN.
 
